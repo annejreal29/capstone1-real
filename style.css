@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 70px;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+}
+
+h1, h3 {
+	font-family: "Roboto Slab", serif;
+	color: #B47C54;
+}
+
+/* Header */
+header h1 {
+	font-size: 5rem;
+}
+#logo-1 {
+	height: 65px;
+	width: 65px;
+}
+
+/* NavBar */
+#logo-2 {
+	height: 65px;
+	width: 190px;
+}
+
+nav > ul {
+	list-style: none;
+}
+
+nav a {
+	color: #846454;
+	font-weight: bold;
+}
+
+/* Home */
+main #home-img {
+	width: 50%;
+}
+
+/* About Me */
+#about {
+	height: 100vh;
+	background-color: bisque;
+
+}
+main #profile {
+	height: 80%;
+	width: 30%;
+}
+
+
+/* Projects */
+#projects .card{
+	background-color: burlywood;
+	color: white;
+	font-family: "Roboto Slab", serif;
+	text-align: center;
+}
+
+.img-card {
+	align-content: center;
+}
+
+/* Contact */
+#contact-me {
+	background-color: beige;
+	height: 80vh;
+}
+
+#form {
+	background-color: burlywood;
+}
+
+#icon {
+	height: 13rem;
+	width: 13rem;
+}
+
+/* Footer */
+footer {
+	font-size: 15px;
+}
