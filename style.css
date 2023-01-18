@@ -6,12 +6,12 @@
 
 html {
 	scroll-behavior: smooth;
-	scroll-padding-top: 70px;
+	scroll-padding-top: 50px;
 }
 
 p {
 	font-family: "Montserrat", sans-serif;
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 h1, h3 {
@@ -20,18 +20,18 @@ h1, h3 {
 }
 
 /* Header */
-header h1 {
-	font-size: 5rem;
+.header > h1 {
+	font-size: 3em;
 }
 #logo-1 {
-	height: 65px;
-	width: 65px;
+	height: 5%;
+	width: 5%;
 }
 
 /* NavBar */
 #logo-2 {
-	height: 65px;
-	width: 190px;
+	height: 3%;
+	width: 15%;
 }
 
 nav > ul {
@@ -50,12 +50,11 @@ main #home-img {
 
 /* About Me */
 #about {
-	height: 100vh;
 	background-color: bisque;
 
 }
 main #profile {
-	height: 80%;
+	height: 80;
 	width: 30%;
 }
 
@@ -75,19 +74,19 @@ main #profile {
 /* Contact */
 #contact-me {
 	background-color: beige;
-	height: 80vh;
+	position: relative;
 }
 
-#form {
-	background-color: burlywood;
+textarea {
+  max-width: 70em;
 }
 
-#icon {
-	height: 13rem;
-	width: 13rem;
-}
 
 /* Footer */
 footer {
 	font-size: 15px;
+}
+
+#icon {
+	width: 3em;
 }
